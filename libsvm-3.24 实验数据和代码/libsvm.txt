@@ -1,0 +1,40 @@
+C:\Users\Dell\Desktop\temporary\数据挖掘\libsvm-3.24>svm-train -b 1 train_sample_data.txt
+*
+optimization finished, #iter = 90
+nu = 0.500000
+obj = -127.756196, rho = 0.991216
+nSV = 136, nBSV = 120
+Total nSV = 136
+*
+optimization finished, #iter = 99
+nu = 0.523438
+obj = -133.777663, rho = 0.990122
+nSV = 140, nBSV = 126
+Total nSV = 140
+*
+optimization finished, #iter = 87
+nu = 0.484375
+obj = -123.756393, rho = 0.991407
+nSV = 131, nBSV = 119
+Total nSV = 131
+*
+optimization finished, #iter = 96
+nu = 0.500000
+obj = -127.776896, rho = 0.992789
+nSV = 137, nBSV = 120
+Total nSV = 137
+*
+optimization finished, #iter = 92
+nu = 0.492188
+obj = -125.800102, rho = 0.993017
+nSV = 132, nBSV = 118
+Total nSV = 132
+*
+optimization finished, #iter = 114
+nu = 0.500000
+obj = -159.661365, rho = 0.989721
+nSV = 166, nBSV = 154
+Total nSV = 166
+
+C:\Users\Dell\Desktop\temporary\数据挖掘\libsvm-3.24>svm-predict -b 1 test_sample_data.txt train_sample_data.txt.model result.txt
+Accuracy = 98.75% (79/80) (classification)
